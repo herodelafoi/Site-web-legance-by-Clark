@@ -1,0 +1,37 @@
+export const products = [
+  {
+    id: "t-shirt-essential",
+    name: "Blazer - Rouge",
+    price: "20 000 FCFA",
+    priceNum: 20000,
+    img: "https://images.fillout.com/orgid-137650/flowpublicid-pqmemxr9rp/widgetid-default/xpR9ma9kXxWm2R8ReAb8jS/pasted-image-1773050077778.jpg",
+    description: "Un t-shirt intemporel taillé dans un coton pima ultra-doux. Coupe droite légèrement ajustée, col rond renforcé et coutures plates pour un confort optimal au quotidien.",
+    details: ["100% coton Pima", "Coupe droite ajustée", "Col rond renforcé", "Lavage à 30°C"],
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    category: "Hauts",
+  },
+  {
+    id: "chemise-premium",
+    name: "Chemise Premium",
+    price: "20 000 FCFA",
+    priceNum: 20000,
+    img: "https://images.fillout.com/orgid-137650/flowpublicid-pqmemxr9rp/widgetid-default/6xSb6BwQwZkLo9vGKKoZPW/pasted-image-1773050229702.jpg",
+    description: "Une chemise élégante confectionnée en popeline de coton égyptien. Coupe slim légèrement structurée, col italien et boutons nacrés pour une allure irréprochable.",
+    details: ["100% coton égyptien", "Coupe slim structurée", "Col italien", "Boutons nacrés"],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    category: "Hauts",
+  },
+  {
+    id: "polo-minimal",
+    name: "Polo Minimal",
+    price: "35 000 FCFA",
+    priceNum: 35000,
+    img: "https://images.fillout.com/orgid-137650/flowpublicid-pqmemxr9rp/widgetid-default/mVyXsvQ27YzCtTDPrBNLpa/pasted-image-1777573117308.jpg",
+    description: "Le polo revisité dans une version épurée et moderne. Piqué de coton stretch, col côtelé et coupe légèrement droite pour un style casual-chic sans effort.",
+    details: ["95% coton, 5% élasthanne", "Piqué stretch", "Col côtelé", "Coupe droite"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    category: "Hauts",
+  },
+];
+
+export type Product = typeof products[0];
